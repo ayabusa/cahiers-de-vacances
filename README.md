@@ -1,5 +1,5 @@
 # Mes devoirs de vacances
-Tout les exercices de la 2ème partie se trouvent dans les fichiers pythons tandis que les questions sont dans README.md
+Tous les exercices de la 2ème partie se trouvent dans les fichiers Pythons tandis que les questions sont dans README.md
 ## Questions
 ### Histoire de l’informatique
 - Qui est considéré comme le père de l’informatique ?
@@ -33,7 +33,7 @@ Tout les exercices de la 2ème partie se trouvent dans les fichiers pythons tand
 > Il s’agit d’un système de communication qui transfère des données entre les différents composants de l’ordinateur ce qui leur permet de communiquer entre eux
 ### Bases de Python 
 - Combien de types de base existe-t-il en Python et quels sont-ils ?
-> Il y a 7 type de base en python et il s’agit de : int, float, bool, string, list, tuple, et dict
+> Il y a 7 types de base en python et il s’agit de : int, float, bool, string, list, tuple, et dict
 - Donnez des exemples de syntaxe pour déclarer une condition en Python.
 ```python
 if maVar == 0 :
@@ -41,7 +41,7 @@ if maVar == 0 :
 ```
 - Quelle est la syntaxe pour réaliser une boucle « pour » en Python ?
 ```python
-for i in range(maListe) :
+for i in range(len(maListe)) :
 	# faire quelque chose
 ```
 - Comment écrire une fonction en Python et comment l’appeler ?
@@ -51,7 +51,7 @@ def maFonction() :
 maFonction()
 ```
 - Quelle est la différence entre une liste et un tuple en Python ?
->Le tuple est immutable en python, alors que la liste elle peut être modifié après création.
+>Le tuple est immuable en python, alors que la liste elle peut être modifiée après création.
 -Comment déclarer un dictionnaire en Python et quelle est la syntaxe pour accéder à une valeur dans un dictionnaire ?
 ```python
 monDictionnaire = { "nom": "Albert", "âge": 42, "ville": "Paris" }
